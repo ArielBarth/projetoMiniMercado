@@ -3,34 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Serviços - Minimercado Barth</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Serviços do Minimercado</h1>
-        <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-        <hr>
-    </header>
+    <a class="visually-hidden-focusable skip-link" href="#main-content">Ir para o conteúdo</a>
 
-    <main>
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Entrega em domicílio - R$ 15,00</li>
-            <li>Recarga de celular - Taxa de R$ 3,00</li>
-            <li>Cesta básica montada - a partir de R$ 120,00</li>
-        </ul>
-    </main>
+    <div class="content-wrapper d-flex flex-column min-vh-100">
+        <header class="container py-3">
+            <h1 class="h3">Serviços do Minimercado</h1>
+            <nav aria-label="Navegação principal">
+                <ul class="nav gap-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
 
-    <footer>
-        <hr>
-        <p>&copy; 2025 Minimercado Barth - Desenvolvido por Ariel Barth</p>
-    </footer>
+        <main id="main-content" class="container flex-grow-1">
+            <section class="mb-5">
+                <h2>Nossos Serviços</h2>
+                <ul>
+                    <li>Entrega em domicílio - R$ 15,00</li>
+                    <li>Recarga de celular - Taxa de R$ 3,00</li>
+                    <li>Cesta básica montada - a partir de R$ 120,00</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="py-3">
+            <hr>
+            <p>&copy; 2025 Minimercado Barth - Desenvolvido por Ariel Barth</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
